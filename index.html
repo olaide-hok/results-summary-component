@@ -11,25 +11,92 @@
             sizes="32x32"
             href="./assets/images/favicon-32x32.png" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet" />
 
         <link rel="stylesheet" href="./styles/normalize.css" />
         <link rel="stylesheet" href="./styles/styles.css" />
         <script defer src="index.js"></script>
 
         <title>Frontend Mentor | Results summary component</title>
-
-        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-        <style>
-            .attribution { font-size: 11px; text-align: center; }
-            .attribution a { color: hsl(228, 45%, 44%); }
-        </style>
     </head>
     <body>
-        Your Result 76 of 100 Great You scored higher than 65% of the people who
-        have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal
-        61 / 100 Visual 72 / 100 Continue
+        <main class="container">
+            <div class="score-card">
+                <h1 class="score-card__title">Your Result</h1>
+                <div class="score-card__circle">
+                    <p class="score-card__circle__score">76</p>
+                    <p class="score-card__circle__of">of 100</p>
+                </div>
+
+                <div class="score-card__details">
+                    <h2 class="score-card__details__great">Great</h2>
+                    <p class="score-card__details__info">
+                        You scored higher than 65% of the people who have taken
+                        these tests.
+                    </p>
+                </div>
+            </div>
+
+            <div class="score-summary">
+                <h2 class="score-summary__title">Summary</h2>
+
+                <div class="score-summary__results">
+                    <div class="item reaction">
+                        <div class="img-category-wrapper">
+                            <img
+                                class="result__icon"
+                                src="./assets/images/icon-reaction.svg"
+                                alt="Reaction icon" />
+                            <p class="result__category">Reaction</p>
+                        </div>
+                        <p class="result__score">
+                            80
+                            <span> / 100 </span>
+                        </p>
+                    </div>
+
+                    <div class="item memory">
+                        <div class="img-category-wrapper">
+                            <img
+                                class="result__icon"
+                                src="./assets/images/icon-memory.svg"
+                                alt="Memory icon" />
+                            <p class="result__category">Memory</p>
+                        </div>
+                        <p class="result__score">92 <span> / 100 </span></p>
+                    </div>
+
+                    <div class="item verbal">
+                        <div class="img-category-wrapper">
+                            <img
+                                class="result__icon"
+                                src="./assets/images/icon-verbal.svg"
+                                alt="Verbal icon" />
+                            <p class="result__category">Verbal</p>
+                        </div>
+                        <p class="result__score">61 <span> / 100 </span></p>
+                    </div>
+
+                    <div class="item visual">
+                        <div class="img-category-wrapper">
+                            <img
+                                class="result__icon"
+                                src="./assets/images/icon-visual.svg"
+                                alt="Visual icon" />
+                            <p class="result__category">Visual</p>
+                        </div>
+                        <p class="result__score">73 <span> / 100 </span></p>
+                    </div>
+                </div>
+
+                <button class="score-summary__button" type="button">
+                    Continue
+                </button>
+            </div>
+        </main>
     </body>
 </html>
