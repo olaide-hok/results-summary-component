@@ -1,6 +1,46 @@
+@use 'functions' as *;
+
 // Typography
-$font-family: "Hanken Grotesk", sans-serif;
+$font-family: 'Hanken Grotesk', sans-serif;
 
 // colors
 $black: #000000;
 $white: #ffffff;
+
+$navy-950: hsl(224, 30%, 27%);
+$navy-200: hsl(241, 100%, 89%);
+$navy-50: hsl(221, 100%, 96%);
+
+$blue-800: hsl(234, 85%, 45%);
+$blue-50: hsl(234, 71%, 97%);
+
+$yellow-400: hsl(39, 100%, 56%);
+$yellow-50: hsl(38, 100%, 98%);
+
+$red-400: hsl(0, 100%, 67%);
+$red-50: hsl(0, 100%, 98%);
+
+$green-500: hsl(166, 100%, 37%);
+$green-50: hsl(166, 100%, 97%);
+
+// gradients
+$gradient-1: linear-gradient(hsl(256, 71%, 46%), hsl(241, 72%, 46%));
+$gradient-2: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+// typography
+$fs-72: rem(72);
+$fs-56: rem(56);
+$fs-32: rem(32);
+$fs-24: rem(24);
+$fs-18: rem(18);
+$fs-16: rem(16);
+
+$lh-100: 100%;
+$lh-130: 130%;
+
+// spacing
+$sp-100: rem(8);
+$sp-200: rem(16);
+$sp-300: rem(24);
+$sp-400: rem(32);
+$sp-1000: rem(80);
