@@ -180,6 +180,10 @@ main.container .score-summary__button {
   line-height: 130%;
   padding-block: 0.96875rem;
 }
+main.container .score-summary__button:hover {
+  background: linear-gradient(180deg, #75f 0%, #2f2ce9 100%);
+  cursor: pointer;
+}
 
 @media screen and (min-width: 48rem) {
   main.container {

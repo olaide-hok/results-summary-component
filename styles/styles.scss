@@ -220,6 +220,11 @@ main {
                 font-weight: 700;
                 line-height: $lh-130;
                 padding-block: rem(15.5);
+
+                &:hover {
+                    background: linear-gradient(180deg, #75f 0%, #2f2ce9 100%);
+                    cursor: pointer;
+                }
             }
         }
     }
