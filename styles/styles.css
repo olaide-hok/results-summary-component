@@ -12,7 +12,7 @@ body {
 }
 
 /* Media query for screens with a width of up to 375px */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 23.4375rem) {
   body {
     min-height: 100%; /* Ensures the body takes up at least the full height of its parent container */
   }
@@ -48,7 +48,7 @@ main.container {
   row-gap: 1.5rem;
 }
 main.container .score-card {
-  border-radius: 0px 0px 32px 32px;
+  border-radius: 0 0 2rem 2rem;
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   display: flex;
   flex-direction: column;
@@ -66,7 +66,7 @@ main.container .score-card__title {
 }
 main.container .score-card__circle {
   border-radius: 4.375rem;
-  background: linear-gradient(hsl(256, 71%, 46%), hsl(241, 72%, 46%));
+  background: linear-gradient(180deg, #4d21c9 0%, rgba(37, 33, 201, 0) 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -181,9 +181,10 @@ main.container .score-summary__button {
   padding-block: 0.96875rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   main.container {
     border-radius: 2rem;
+    box-shadow: 0 2.25rem 3.75rem 0 rgba(61, 108, 236, 0.15);
     align-self: center;
     justify-content: center;
     flex-direction: row;
@@ -192,15 +193,40 @@ main.container .score-summary__button {
   }
   main.container .score-card {
     border-radius: 2rem;
-    flex: 1;
     padding-block: 2.78125rem;
     padding-inline: 4.3125rem;
+    width: 21.125rem;
+  }
+  main.container .score-card__title {
+    font-size: 1.5rem;
+  }
+  main.container .score-card__circle {
+    border-radius: 100%;
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+  main.container .score-card__circle__score {
+    font-size: 4.5rem;
+  }
+  main.container .score-card__circle__of {
+    font-size: 1.125rem;
+  }
+  main.container .score-card__details {
+    row-gap: 1rem;
+  }
+  main.container .score-card__details__great {
+    font-size: 2rem;
+  }
+  main.container .score-card__details__info {
+    font-size: 1.125rem;
+    text-align: center;
   }
   main.container .score-summary {
-    flex: 1;
     padding-block: 2.78125rem;
     padding-inline: 2.46875rem;
     row-gap: 2rem;
+    margin-bottom: 0;
+    width: 21.75rem;
   }
   main.container .score-summary__title {
     font-size: 1.5rem;
@@ -214,6 +240,18 @@ main.container .score-summary__button {
   }
   main.container .score-summary__results > .item .result__score {
     font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 64rem) {
+  main.container {
+    max-width: 46rem;
+  }
+  main.container .score-card {
+    padding-inline: 3.8rem;
+    width: 23rem;
+  }
+  main.container .score-summary {
+    width: 23rem;
   }
 }
 
