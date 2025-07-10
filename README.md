@@ -4,16 +4,14 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Table of contents
 
--   [Overview](#overview)
-    -   [The challenge](#the-challenge)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-    -   [Continued development](#continued-development)
-    -   [Useful resources](#useful-resources)
--   [Author](#author)
+- [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+- [My process](#my-process)
+    - [Built with](#built-with)
+    - [Useful resources](#useful-resources)
+- [Author](#author)
 
 ## Overview
 
@@ -21,39 +19,46 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 Users should be able to:
 
--   View the optimal layout for the interface depending on their device's screen size
--   See hover and focus states for all interactive elements on the page
--   **Bonus**: Use the local JSON data to dynamically populate the content
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<table>
+ <tr>
+    <th>Desktop</th>
+    <th>Tablet</th>
+    <th>Mobile</th>
+  </tr>
+  <tr>
+    <td><img src="./results-summary-component-desktop.png" alt="Desktop version"></td>
+    <td><img src="./results-summary-component-tablet.png" alt="Tablet version"></td>
+    <td><img src="./results-summary-component-mobile.png" alt="Mobile version"></td>
+  </tr>
+</table>
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link](https://github.com/olaide-hok/results-summary-component)
+- Live Site URL: [Link](https://olaide-hok.github.io/results-summary-component)
 
 ## My process
 
 ### Built with
 
--   Semantic HTML5 markup
--   CSS custom properties
--   Flexbox
--   CSS Grid
--   Mobile-first workflow
--   [React](https://reactjs.org/) - JS library
--   [Next.js](https://nextjs.org/) - React framework
--   [Styled Components](https://styled-components.com/) - For styles
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Sass](https://sass-lang.com/) - Sass is the most mature, stable, and powerful professional grade CSS extension.
 
 ### Useful resources
 
--   [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
--   [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [BEM and SASS: A Perfect Match](https://andrew-barnes.medium.com/bem-and-sass-a-perfect-match-5e48d9bc3894) - This helped with BEM and SASS. I really liked this pattern and will use it going forward.
+- [Using Sass to Control Scope With BEM Naming](https://css-tricks.com/using-sass-control-scope-bem-naming/) - This is an amazing article which helped me finally understand BEM. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
--   Website - [Add your name here](https://www.your-site.com)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
--   Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Habeeb Kareem](https://habeeb-dev.netlify.app)
+- Frontend Mentor - [@olaide-hok](https://www.frontendmentor.io/profile/olaide-hok)
